@@ -1,0 +1,51 @@
+variant:Cortex-A8
+exe:../application/dbg/application.elf
+Constructing.
+
+
+OVPsim (32-Bit) v20150205.0 Open Virtual Platform simulator from www.OVPworld.org.
+Copyright (c) 2005-2015 Imperas Software Ltd.  Contains Imperas Proprietary Information.
+Licensed Software, All Rights Reserved.
+Visit www.IMPERAS.com for multicore debug, verification and analysis solutions.
+
+OVPsim started: Sat Aug  1 01:34:55 2015
+
+
+Info (ICM_AL) Found attribute symbol 'modelAttrs' in file '/opt/Imperas.20150205/lib/Linux32/ImperasLib/arm.ovpworld.org/semihosting/armNewlib/1.0/model.so'
+Info (ICM_AL) Found attribute symbol 'modelAttrs' in file '/opt/Imperas.20150205/lib/Linux32/ImperasLib/arm.ovpworld.org/processor/arm/1.0/model.so'
+Load executable file
+
+Info (PSE_SERO) Opened PSE serial channel 1
+Processor Exception (PC_PRX) Processor 'arm_platform.cpu1' 0x100000: 00000000 andeq   r0,r0,r0
+Processor Exception (PC_FDX) Fetch abort at 0x100000
+Info 
+Info ---------------------------------------------------
+Info PSE SIMULATION TIME STATISTICS
+Info    0.00 seconds: PSE THREAD 'arm_platform.uart1'
+Info    0.00 seconds: PSE 'arm_platform.timer1' (and 10 terminated callbacks)
+Info    0.00 seconds: PSE 'arm_platform.uart1' (and 36 terminated callbacks)
+Info ---------------------------------------------------
+Info 
+Info ---------------------------------------------------
+Info CPU 'arm_platform.cpu1' STATISTICS
+Info   Type                  : arm (Cortex-A8)
+Info   Nominal MIPS          : 100
+Info   Final program counter : 0x100000
+Info   Simulated instructions: 262,145
+Info   Simulated MIPS        : 0.1
+Info ---------------------------------------------------
+Info 
+Info ---------------------------------------------------
+Info SIMULATION TIME STATISTICS
+Info   Simulated time        : 0.00 seconds
+Info   User time             : 2.36 seconds
+Info   System time           : 0.01 seconds
+Info   Elapsed time          : 2.39 seconds
+Info ---------------------------------------------------
+
+OVPsim finished: Sat Aug  1 01:34:58 2015
+
+
+OVPsim (32-Bit) v20150205.0 Open Virtual Platform simulator from www.OVPworld.org.
+Visit www.IMPERAS.com for multicore debug, verification and analysis solutions.
+
